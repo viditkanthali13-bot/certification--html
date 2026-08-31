@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidit Certification</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --background-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            object-position: top;
+            border-bottom: 2px solid #eeeeee;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-content h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+
+        .card-content p {
+            margin: 0;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vidit Certification</h1>
+    </header>
+
+    <div class="container">
+        <main class="gallery">
+            
+            <div class="card">
+                <img src="python.jpeg" alt="Google Crash Course on Python">
+                <div class="card-content">
+                    <h3>Crash Course on Python</h3>
+                    <p>Google / Coursera</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2026-08-19 095128.png" alt="Infosys Introduction to Artificial Intelligence">
+                <div class="card-content">
+                    <h3>Introduction to Artificial Intelligence</h3>
+                    <p>Infosys Springboard</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="iamneo.png" alt="iamneo Computer Programming">
+                <div class="card-content">
+                    <h3>Computer Programming</h3>
+                    <p>iamneo</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="WhatsApp Image 2026-08-31 at 21.48.15.jpeg" alt="Tech Veda Effective Time Management">
+                <div class="card-content">
+                    <h3>Effective Time Management</h3>
+                    <p>Tech Veda</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="skill.png" alt="LPU Skills Design Thinking and Figma">
+                <div class="card-content">
+                    <h3>Design Thinking and Figma</h3>
+                    <p>LPU Skills</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="WhatsApp Image 2026-08-31 at 21.52.05.jpeg" alt="Times Foundation Community Development Project">
+                <div class="card-content">
+                    <h3>Community Development Project</h3>
+                    <p>Times Foundation</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="1758820268902.jpg" alt="Campus Ambassador Edge3">
+                <div class="card-content">
+                    <h3>Campus Ambassador</h3>
+                    <p>Student Leadership</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Vidit Kanthali. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
